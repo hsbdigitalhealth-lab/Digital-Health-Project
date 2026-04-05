@@ -29,3 +29,34 @@ conda activate ml-env
 
 # Install required packages
 conda install numpy pandas scikit-learn matplotlib seaborn jupyter xgboost imbalanced-learn
+
+### How to Setup and Run the Project
+
+Follow these steps to get everything running on your machine:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/hsbdigitalhealth-lab/Digital-Health-Project.git
+   cd Digital-Health-Project
+
+2. Install the required packages
+
+\`\`\`bashconda install numpy pandas scikit-learn matplotlib seaborn jupyter xgboost imbalanced-learn
+
+3. Prepare your data
+
+·  Create a folder named data/ inside the project
+
+·  Place your raw CSV files inside the data/ folder
+
+4. Run the data extraction pipeline
+
+\`\`\`bashpython "data extraction.py"
+
+This will clean your data and save the processed files in an output/ folder.
+
+5. Open and run the main modeling notebook
+
+\`\`\`bashjupyter notebook CVD\_detection\_full\_pipeline.ipynb
+
+Run the cells step by step
