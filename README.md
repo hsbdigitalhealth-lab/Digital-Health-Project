@@ -28,11 +28,6 @@ conda create --name ml-env python=3.11
 conda activate ml-env
 ```
 
-### Install required packages
-```bash
-conda install numpy pandas scikit-learn matplotlib seaborn jupyter xgboost imbalanced-learn
-```
-
 ## How to Setup and Run the Project
 
 Follow these steps to get everything running on your machine:
