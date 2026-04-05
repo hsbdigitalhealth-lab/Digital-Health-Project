@@ -41,7 +41,8 @@ Follow these steps to get everything running on your machine:
 
 2. Install the required packages
 
-\`\`\`bashconda install numpy pandas scikit-learn matplotlib seaborn jupyter xgboost imbalanced-learn
+```bash
+conda install numpy pandas scikit-learn matplotlib seaborn jupyter xgboost imbalanced-learn
 
 3. Prepare your data
 
@@ -51,12 +52,14 @@ Follow these steps to get everything running on your machine:
 
 4. Run the data extraction pipeline
 
-\`\`\`bashpython "data extraction.py"
+```bash
+python "data extraction.py"
 
 This will clean your data and save the processed files in an output/ folder.
 
 5. Open and run the main modeling notebook
 
-\`\`\`bashjupyter notebook CVD\_detection\_full\_pipeline.ipynb
+```bash
+jupyter notebook CVD\_detection\_full\_pipeline.ipynb
 
 Run the cells step by step
